@@ -1,0 +1,8 @@
+name: "Mera pehla workflow" (ye optional setting hai if you want you can omit)
+
+run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+
+on: 
+  branches:
+  - main
+  - features
